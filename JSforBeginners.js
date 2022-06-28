@@ -50,7 +50,7 @@ console.log(typeof(number_2)); //string
 //Type inference in JavaScript
 console.log(number + number_2)  //55
 
-// You to explicitly convert any primitive data type to other by using either 'Number()' , 'Boolean()' or 'String()' functions in JavaScript
+// You can explicitly convert any primitive data type to other by using either 'Number()' , 'Boolean()' or 'String()' functions in JavaScript
 console.log(number + Number(number_2)); //10    
 
 
