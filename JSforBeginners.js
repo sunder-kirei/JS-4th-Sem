@@ -94,7 +94,10 @@ console.log(number == number_2); //true
 console.log(number === number_2); //false
 //The above code solves the problem from earlier, '===' checks for both values as well as their types in variables
 
+//Exponential operator in JavaScript
 console.log(2**3); //8
+
+
 /*
 Conditions in JavaScript work EXACTLY like C++, no seriously
 */
