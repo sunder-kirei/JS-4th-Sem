@@ -79,9 +79,9 @@ Only when a variable is declared in function block, that it is block-scoped or l
 
 /*
 Operators in JavaScript are just like C++ with a few exceptions. There are mainly three diferent operators as compared to c++, they are;
-1- Triple equals to '==='
-2- Double equals to '=='
-3- Exponential Operator '**'
+1. Triple equals to `===`
+2. Double equals to `==`
+3. Exponential Operator `**`
 
 All other operators work like a charm, increment, decrement, so on and so forth.
 */
@@ -119,11 +119,11 @@ Loops in JavaScript
 
 There are mainly 5 types of Loops in JavaScript, you are familiar with 3 of them,
 
-1- for loop
-2- while loop
-3- do...while loop
-4- for of loop
-5- for in loop
+1. `for` loop
+2. `while` loop
+3. `do...while` loop
+4. `for of` loop
+5. `for in` loop
 */
 
 for(let i = 0; i < 3; i++) {
@@ -143,9 +143,9 @@ do{
 }while(i < 3);
 
 /*
-"For in" loop takes key of an object as an argument
+"for in" loop takes key of an object as an argument
 
-"For of" loop is like an iterator in C++, it returns the value associated with the key, iteratively
+"for of" loop is like an iterator in C++, it returns the value associated with the key, iteratively
 I'm pretty sure this is not in your course, but I'll cover it with arrays, okay?
 */
 
@@ -161,7 +161,7 @@ let fullName = {
 //You can also make an object using a constructor, but it is beyond the scope of this tutorial🤣🤣🤣
 
 //You can see it looks just like a JSON object, cause it is technically, Java Script Object Notation Duh...
-//Anyways, the name if the variable is 'fullName' and 'firstName' and 'lastName' are called keys of the said object, while 'Sunder' and 'Kumar' are the values of the keys, respectively. Please remember this it will help you understand Arrays...
+//Anyways, the name of the variable is 'fullName' and 'firstName' and 'lastName' are called keys of the said object, while 'Sunder' and 'Kumar' are the values of the keys, respectively. Please remember this it will help you understand Arrays...
 
 console.log(fullName)
 console.log(fullName.firstName) //This is called Dot Notation, and you just need to remember this way of accessing the keys in an object
