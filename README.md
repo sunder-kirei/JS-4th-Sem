@@ -318,10 +318,10 @@ Arrays in JavaScript are Objects, and hence can be constructed using their const
 Functions in JavaScript are decalred with `function` key word, there are also something called ***arrow functions*** but I'm pretty sure it's not part of your syllabus...
 
 ```JS
-	function add(a = 0,b = 0){ //These are called 'default parameters', and are just like C++, completely optional and completely Rad!😍
-		return a + b;
-	}
-	console.log(add(1,2));  //3
+function add(a = 0,b = 0){ //These are called 'default parameters', and are just like C++, completely optional and completely Rad!😍
+	return a + b;
+}
+console.log(add(1,2));  //3
 ```
 >Firstly, no need to say `let` while declaring parameters in a function
 
@@ -335,18 +335,18 @@ Functions in JavaScript are decalred with `function` key word, there are also so
 - Event-listeners can either be hooked *in-line* in HTML or seperately in a JS file.
 
 ```HTML
-	<body>
-		<button id = "body-button" onClick = alert("Hello, there!")>
-			Click Me!
-		</button>
-	<body>
+<body>
+	<button id = "body-button" onClick = alert("Hello, there!")>
+		Click Me!
+	</button>
+<body>
 ```
 
 ```JS
-	const button = document.getElementById("body-button")
-	button.addEventListener('click',function(){
-		alert("Hello, there!")
-	})
+const button = document.getElementById("body-button")
+  button.addEventListener('click',function(){
+  alert("Hello, there!")
+})
 ```
 
 >The above statement roughly translates to 'Hey html file, aka document, go fetch the object having the id `lastButton` from the document'😅
